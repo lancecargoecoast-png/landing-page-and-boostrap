@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      .photo-card {
+        min-height: 420px;
+        color: #000000;
+        border: 2px solid transparent;
+        border-radius: 18px;
+        overflow: hidden;
+      }
+      .photo-card:nth-child(1) {
+        background: linear-gradient(135deg, #fff3b0, #ffd166);
+        border-color: #f4b400;
+      }
+      .photo-card:nth-child(2) {
+        background: linear-gradient(135deg, #d7f9f1, #8fe3d2);
+        border-color: #1aa179;
+      }
+      .photo-card:nth-child(3) {
+        background: linear-gradient(135deg, #dfe9ff, #9bb8ff);
+        border-color: #3d6fe6;
+      }
+      .photo-card:nth-child(4) {
+        background: linear-gradient(135deg, #ffe3ec, #f9a8d4);
+        border-color: #db4c8d;
+      }
+      .photo-card:nth-child(5) {
+        background: linear-gradient(135deg, #e7e5ff, #b9a8ff);
+        border-color: #6d4eea;
+      }
+      .photo-card img {
+        height: 280px;
+        width: 100%;
+        object-fit: cover;
+      }
+      .photo-card-lg {
+        min-height: 450px;
+      }
+      .photo-card-lg img {
+        height: 320px;
+      }
+
+      .anime-panel {
+        background: linear-gradient(135deg, #130d1a 0%, #1d1630 35%, #251a30 100%);
+        border: 2px solid rgba(255, 215, 112, 0.7);
+        border-radius: 22px;
+        min-height: 420px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #f5d77a;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+        text-align: center;
+        box-shadow: 0 18px 40px rgba(16, 12, 25, 0.4);
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body style="background-color: #bcdbff;">
+    <main class="container my-5">
+      <section style="background-color: #a7c4f5;" class="text-white p-5 rounded shadow">
+
+        <h1>Lance Chardaine Corral Cargo</h1>
+        <p class="mb-0">Konting bato, Konting simento, MUNUMENTO.</p>
+        <div class="mt-3">
+          <a href="https://www.facebook.com/lanz.cargo/directory_personal_details" class="btn btn-info">Facebook</a>
+          <a href="https://www.instagram.com/zzzznl.ns/" class="btn btn-danger">Instagram</a>
+          
+        </div>
+      </section>
+    </main>
+
+    <!-- Picture containers: replace the image src values with your own pictures. -->
+    <section class="container mb-5">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm photo-card">
+            <img src="c:\Users\lance cargo\Downloads\Villasis hometown.jpg" class="rounded float-start" alt="My picture 1">
+            <div class="rounded float-start card-body">
+              <h2 class="h5 card-title">Villasis Yellow Hometown</h2>
+              <p class="card-text">A beautiful view of my hometown in Villasis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm photo-card">
+            <img src="c:\Users\lance cargo\Downloads\Capulaan barangay.jpg" class="card-img-top" alt="My picture 2">
+            <div class="card-body">
+              <h2 class="h5 card-title">Capulaan Barangay</h2>
+              <p class="card-text">A scenic view of My Capulaan Barangay.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm photo-card">
+            <img src="c:\Users\lance cargo\Downloads\Capulaan elementary school.jpg" class="card-img-top" alt="My picture 3">
+            <div class="card-body">
+              <h2 class="h5 card-title">Capulaan Elementary School</h2>
+              <p class="card-text">A picture of my old elementary school.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mb-5">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm photo-card">
+            <img src="c:\Users\lance cargo\Downloads\Saint Anthony Abbot Academy School.jpg" class="card-img-top" alt="My picture 4">
+            <div class="card-body">
+              <h2 class="h5 card-title">Saint Anthony Abbot Academy School</h2>
+              <p class="card-text">A picture of my old high school.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm photo-card photo-card-lg">
+            <img src="c:\Users\lance cargo\Downloads\Panpacific University.jpg" class="card-img-top" alt="My picture 5">
+            <div class="card-body">
+              <h2 class="h5 card-title">Panpacific University</h2>
+              <p class="card-text">A picture of my current university.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <hr style="border-top: 3px solid #3b6bb6; opacity: 0.8; margin: 20px auto 30px;">
+    </div>
+
+    <section class="container mb-5">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm photo-card anime-panel">
+            <img src="c:\Users\lance cargo\Downloads\bout me.jpg" class="w-100 h-100" alt="My picture" style="object-fit: cover; border-radius: 18px;">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div style="height: 100%; min-height: 420px; background: rgba(255,255,255,0.08); border-radius: 22px; padding: 30px; color: white;">
+            <h3 style="color: #393a3a;">Who is Lance?</h3>
+            <p style="line-height: 1.8;">
+              My Name is Lance Chardaine Corral Cargo, I am 19 years old, I was born on October 05, 2007, and I am currently a student at Panpacific University North Philippines. I am a person who is very passionate about learning new things and improving myself. I am also a person who is very determined to achieve my goals and dreams. I am a person who is very friendly and easy to get along with. I am also a person who is very responsible and reliable. I am a person who is very creative and innovative. I am also a person who is very hardworking and dedicated. I am a person who is very optimistic and positive. I am also a person who is very humble and down to earth.
+              <div class="container">
+             <hr style="border-top: 3px solid #3b6bb6; opacity: 0.8; margin: 20px auto 30px;">
+             </div>
+             My favorite hobbies are playing video games like Mobile Legends, Call of Duty, and Roblox. I Also like to watch anime and reading manga. My favorite anime are Seven Deadly Sins, Naruto Shippuden, and Solo Leveling. I also like listening musics. Also my Favorite Sports is playing Basketball and Sepak Takraw.
+             <div class="container">
+             <hr style="border-top: 3px solid #3b6bb6; opacity: 0.8; margin: 20px auto 30px;">
+             </div>
+             I lived in Lepanto Capulaan Villasis Pangasinan. But i was born in San Mariano Isabela, which is my Mother's hometown. I am the eldest child of my parents, and I have a One younger brother.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
